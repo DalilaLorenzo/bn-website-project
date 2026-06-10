@@ -1,0 +1,74 @@
+body {color: ghostwhite;
+      background-color: black;
+      font-family: Amasis MT Pro Medium, georgia,serif;
+      font-size: 19px;
+}
+  
+ 
+
+h1 {color: lightcyan; font-family:georgia, aptos display, serif;
+}
+
+h2 {color: lightblue; font-family:aptos display, georgia, serif; font-size: 28px;
+}
+
+h3 {color: lightblue; font-family:, aptos display, georgia, serif; font-size: 28px;
+}
+
+h4 {color: lightblue; font-family:aptos display, georgia, serif; font-size: 28px;
+}
+
+h5 {color: lightcyan; font-family:georgia, aptos display, serif; font-size: 32px;
+}
+
+
+ul { font-family: Trebuchet MS,georgia,serif;  
+}
+
+ol { color: ghostwhite; font-family: Trebuchet MS,georgia,serif;  
+}
+
+/*all paragraph text will be grey*/
+p {color: ghostwhite; font-family: Trebuchet MS,georgia,serif;
+}
+
+/*hyperlinks*/
+
+a:link { 
+	font-weight: bold;
+	font-family: Franklin Gothic Medium; 
+	text-decoration: none; 
+	color: skyblue;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+
+/*holds everything together*/
+
+.container {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+    	margin-left: auto;
+	width: 960px;
+	border: none;
+	padding: 20px;
+	
+	}
+/*horizontal rule (line)*/
+hr {
+    border: none;
+    height: 3px;
+    background-color: skyblue;
+    width: 80%; 
+    margin: 15px auto; 
+    opacity: 0.7; 
+}
+
+
+table, th, td {
+  border: 1px solid saddlebrown;
+  border-collapse: collapse;
+}
